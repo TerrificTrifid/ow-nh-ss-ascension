@@ -1,0 +1,17 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Star has reached end of natural life cycle.\\nWARNING: Evacuate <![CDATA[<color=orange>Sun Station</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>Approximate time until star’s death: <![CDATA[<MinutesToRedGiant>]]> MINUTES, <![CDATA[<SecondsToRedGiant>]]> SECONDS</Text>
+	</TextBlock>
+
+    <ShipLogConditions>
+        <RevealFacts>
+            <FactID>S_SUNSTATION_X4</FactID>
+            <Condition></Condition>
+        </RevealFacts>
+    </ShipLogConditions>
+</NomaiObject>
