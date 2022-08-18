@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Ash Twin",
+	"removeChildren": [
+		"Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS/Prefab_NOM_Computer"
+	],
+	"Props": {
+		"nomaiText": [
+			{ "type": "computer", "xmlFile": "planets/TowerStatusComputer.xml", "position": {"x": 128.818, "y": 2.3241, "z": -69.708}, "normal": {"x": 0.8488894, "y": 0, "z": -0.5285703}, "parentPath": "Sector_TowerTwin/Sector_Tower_SS/Interactables_Tower_SS" }
+		]
+	}
+}
