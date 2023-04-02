@@ -16,9 +16,9 @@
 		"tint": {"r": 255, "g": 155, "b": 55, "a": 255}
 	},
 	"Props": {
-		"nomaiText": [
-			{ "type": "computer", "xmlFile": "planets/SS_ApproximateTime.xml", "position": {"x": 92.96, "y": -42.731, "z": -11.44}, "normal": {"x": 1, "y": 0, "z": 0}, "parentPath": "Sector_SunStation/Sector_ControlModule/Interactables" },
-			{ "type": "computer", "xmlFile": "planets/SS_ClosingEmergencyDoor.xml", "position": {"x": -72.3514, "y": -5.0015, "z": 3.3936}, "normal": {"x": 0, "y": 1, "z": 0}, "parentPath": "Sector_SunStation/Sector_WarpModule/Interactables_WarpModule" }
+		"translatorText": [
+			{ "rename": "Prefab_NOM_Computer_New", "type": "computer", "xmlFile": "planets/SS_ApproximateTime.xml", "position": {"x": 92.96, "y": -42.731, "z": -11.44}, "rotation": {"x": 90, "y": 90, "z": 0}, "parentPath": "Sector_SunStation/Sector_ControlModule/Interactables" },
+			{ "rename": "Prefab_NOM_Computer_New", "type": "computer", "xmlFile": "planets/SS_ClosingEmergencyDoor.xml", "position": {"x": -72.3514, "y": -5.0015, "z": 3.3936}, "rotation": {"x": 0, "y": 90, "z": 0}, "parentPath": "Sector_SunStation/Sector_WarpModule/Interactables_WarpModule" }
 		],
 		"details": [
 			{ "assetBundle": "planets/terrifictrifid_ssascension", "path": "Assets/RFVolume_SS.prefab" },
